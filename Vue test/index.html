@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <header>
+            <input type="text" class="goods-search" v-model="searchLine" />
+            <button v-on:click="filtered" class="search-button" type="button">Искать</button>
+            <button v-on:click="showCart" class="cart-button" type="button">Корзина</button>
+            <template v-show="isVisibleCart">
+                <div class="cart">
+                    <div class="cart-item" v-for="item in cart" :title="item.title">
+                        <!--<img :src="good.src">-->
+                        <h3>{{ item.title }}</h3>
+                        <p>{{ item.price }}</p>
+                    </div>
+                </div>
+            </template>
+        </header>
+        <main>
+            <template v-if="filteredGoods.length > 0">
+                <div class="goods-list">
+                    <div class="goods-item" v-for="good in filteredGoods">
+                        <img :src= "good.src">
+                        <h3>{{ good.title }}</h3>
+                        <p>{{ good.price }}</p>
+                        <button v-on:click="addToCart" type="button" :id="good.id ">Add to cart</button>
+                    </div>
+                </div>
+            </template>
+            <template v-else>
+                <p>ничего не найдено</p>
+            </template>
+            
+        </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
