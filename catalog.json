@@ -2,57 +2,57 @@
         { 
             "src": "img/prod_card1.png",
             "alt": "product", 
-            "title": "Mango People T-shirt", 
-            "price": 52,
+            "title": "T-shirt", 
+            "price": 12,
             "id": "prod_card1"
         },
         { 
             "src": "img/prod_card2.png",
             "alt": "product", 
-            "title": "Mango People T-shirt", 
-            "price": 52,
+            "title": "Sweater", 
+            "price": 50,
             "id": "prod_card2"
         },
         { 
             "src": "img/prod_card3.png",
             "alt": "product", 
-            "title": "Mango People T-shirt", 
-            "price": 52,
+            "title": "Hate", 
+            "price": 12,
             "id": "prod_card3"
         },
         { 
             "src": "img/prod_card4.png",
             "alt": "product", 
-            "title": "Mango People T-shirt", 
+            "title": "Shoes", 
             "price": 52,
             "id": "prod_card4"
         },
         { 
             "src": "img/prod_card5.png",
             "alt": "product", 
-            "title": "Mango People T-shirt", 
-            "price": 52,
+            "title": "Black T-shirt", 
+            "price": 12,
             "id": "prod_card5" 
         },
         { 
             "src": "img/prod_card6.png",
             "alt": "product", 
-            "title": "Mango People T-shirt", 
-            "price": 52,
+            "title": "Dress", 
+            "price": 40,
             "id": "prod_card6"
         },
         { 
             "src": "img/prod_card7.png",
             "alt": "product", 
-            "title": "Mango People T-shirt", 
-            "price": 52,
+            "title": "Coat", 
+            "price": 72,
             "id": "prod_card7" 
         },
         { 
             "src": "img/prod_card8.png",
             "alt": "product", 
-            "title": "Mango People T-shirt", 
-            "price": 52,
-            "id": "prod_card7"
+            "title": "Pink T-shirt", 
+            "price": 12,
+            "id": "prod_card8"
         }
     ]
